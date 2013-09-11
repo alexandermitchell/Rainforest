@@ -58,6 +58,7 @@ class ProductsController < ApplicationController
         format.html { render action: "new" }
         format.json { render json: @product.errors, status: :unprocessable_entity }
       end
+     end
   end
 
   def update
