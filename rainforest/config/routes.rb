@@ -1,4 +1,4 @@
 Rainforest::Application.routes.draw do
-  root "products/" => "products#index"
+  root "products#index"
   resources :products
 end
